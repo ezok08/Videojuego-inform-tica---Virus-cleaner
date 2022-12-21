@@ -8,6 +8,14 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -16,16 +24,24 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Teclado",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Plataforma",
+			"id": "solid",
+			"name": "Sólido",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -40,8 +56,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Sólido",
+			"id": "Platform",
+			"name": "Plataforma",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -50,12 +66,14 @@
 	"uniqueId": "soe086vsnhs",
 	"objectTypes": {
 		"items": [
-			"Sprite",
-			"Sprite2",
+			"Teclado",
+			"broque1",
 			"personaje",
-			"Sprite3",
-			"Sprite4",
-			"Teclado"
+			"fondo",
+			"Sprite",
+			"EntradaDeTexto",
+			"Texto",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -187,7 +205,7 @@
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-integer-scale",
-		"fullscreenQuality": "low",
+		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
@@ -226,7 +244,7 @@
 		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "folders"
 	},
-	"viewportWidth": 320,
-	"viewportHeight": 180,
+	"viewportWidth": 750,
+	"viewportHeight": 400,
 	"firstLayout": null
 }

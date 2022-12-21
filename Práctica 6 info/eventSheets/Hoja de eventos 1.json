@@ -3,27 +3,30 @@
 	"events": [
 		{
 			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 200423028088797
+		},
+		{
+			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 652592158925348,
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 851069418112382,
 					"parameters": {
-						"key": 87
+						"object": "personaje"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-mirrored",
-					"objectClass": "personaje",
-					"sid": 698479632608489,
-					"parameters": {
-						"state": "not-mirrored"
-					}
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 735664689402065
 				}
 			],
-			"sid": 454198545072839
+			"sid": 413381080666887
 		}
 	],
 	"sid": 566144035543767
